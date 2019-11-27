@@ -1,0 +1,221 @@
+Partlist
+
+Exported from Motor2017.sch at 24/03/17 09:46
+
+EAGLE Version 7.7.0 Copyright (c) 1988-2016 CadSoft
+
+Assembly variant: 
+
+Part          Value                    Device                    Package                  Library                            Sheet		Status (added by user)
+
+3003-H        ZXGD3003E6SOT            ZXGD3003E6SOT             SOT23-6                  Custom2                            1			
+3003-S        ZXGD3003E6SOT            ZXGD3003E6SOT             SOT23-6                  Custom2                            1			
+BAT_KERS                               HEADER_POS4_43045-0401    43045-0400               con-molex-micro-fit-3_0            1
+BRAKE                                  HEADER_POS4_43045-0401    43045-0400               con-molex-micro-fit-3_0            1
+BUZZER        BUZZERPTH                BUZZERPTH                 BUZZER-12MM              SparkFun-Electromechanical         1
+C-12S         4.7uF                    CAP1210                   1210                     SparkFun-Passives                  1
+C-12V         560uF                    CPOL-USG                  PANASONIC_G              rcl                                1
+C-12V1        220uF                    CPOL-USD                  PANASONIC_D              rcl                                1
+C-31          4.7uF                    CAP1210                   1210                     SparkFun-Passives                  1
+C-32          100nF                    CAP0805                   0805                     SparkFun-Passives                  1
+C-33          100nF                    CAP0805                   0805                     SparkFun-Passives                  1
+C-BZ          4.7uF                    CAP1210                   1210                     SparkFun-Passives                  1
+C-CAN         100nF                    CAP0805                   0805                     SparkFun-Passives                  1
+C-CANH        220pF                    CAP0805                   0805                     SparkFun-Passives                  1
+C-CANL        220pF                    CAP0805                   0805                     SparkFun-Passives                  1
+C-IC1         4.7uF                    CAP1210                   1210                     SparkFun-Passives                  1
+C-IC2         100nF                    CAP0805                   0805                     SparkFun-Passives                  1
+C-O           100nF                    CAP0805                   0805                     SparkFun-Passives                  1
+C5V1          560uF                    CPOL-USG                  PANASONIC_G              rcl                                1
+C5V2          100nF                    CAP0805                   0805                     SparkFun-Passives                  1
+C5V3          100nF                    CAP0805                   0805                     SparkFun-Passives                  1
+C5VS          560uF                    CPOL-USG                  PANASONIC_G              rcl                                1
+C5VS2         100nF                    CAP0805                   0805                     SparkFun-Passives                  1
+C232-1        1uF                      CAP0805                   0805                     SparkFun-Passives                  1
+C232-2        1uF                      CAP0805                   0805                     SparkFun-Passives                  1
+C232-3        1uF                      CAP0805                   0805                     SparkFun-Passives                  1
+C232-4        1uF                      CAP0805                   0805                     SparkFun-Passives                  1
+C232-5        1uF                      CAP0805                   0805                     SparkFun-Passives                  1
+CB            100nF                    CAP0805                   0805                     SparkFun-Passives                  1
+CBV           100nF                    CAP0805                   0805                     SparkFun-Passives                  1
+CF            100nF                    CAP0805                   0805                     SparkFun-Passives                  1
+CG            100nF                    CAP0805                   0805                     SparkFun-Passives                  1
+CH2           100pF                    CAP0805                   0805                     SparkFun-Capacitors                1
+CH2O          100nF                    CAP0805                   0805                     SparkFun-Passives                  1
+CHS1          100nF                    CAP0805                   0805                     SparkFun-Passives                  1
+CKV           100nF                    CAP0805                   0805                     SparkFun-Passives                  1
+CL            100nF                    CAP0805                   0805                     SparkFun-Passives                  1
+COIL          100nF                    CAP0805                   0805                     SparkFun-Passives                  1
+CREF5         100nF                    CAP0805                   0805                     SparkFun-Passives                  1
+CS            100nF                    CAP0805                   0805                     SparkFun-Passives                  1
+CS2           100pF                    CAP0805                   0805                     SparkFun-Capacitors                1
+CSP           100nF                    CAP0805                   0805                     SparkFun-Passives                  1
+CW0           100nF                    CAP0805                   0805                     SparkFun-Passives                  1
+CW1           100nF                    CAP0805                   0805                     SparkFun-Passives                  1
+D-P           ES1B                     DIODESMA                  SMA-DIODE                SparkFun-DiscreteSemi              1
+D1            PESD1CAN                 PESD1CAN                  SOT23-3                  SparkFun-DiscreteSemi              1
+DAC                                    JUMPER-2PTH               1X02                     SparkFun-Retired                   1
+DS            B340A                    DIODESMA                  SMA-DIODE                SparkFun-DiscreteSemi              1
+FLOW                                   HEADER_POS4_43045-0401    43045-0400               con-molex-micro-fit-3_0            1
+FRIEND        BLUETOOTH-USB-FRIEND     BLUETOOTH-USB-FRIEND      1X08_ROUND_76            BluetoothAndUSBFriend              1
+GEARSENSOR                             HEADER_POS4_43045-0401    43045-0400               con-molex-micro-fit-3_0            1
+GEARSERVO                              HEADER_POS4_43045-0401    43045-0400               con-molex-micro-fit-3_0            1
+HALLSENSOR                             HEADER_POS4_43045-0401    43045-0400               con-molex-micro-fit-3_0            1
+HORN                                   HEADER_POS4_43045-0401    43045-0400               con-molex-micro-fit-3_0            1
+I2C           22-23-2041               22-23-2041                22-23-2041               con-molex                          1
+INTERNAL_FUSE SMF_OMNI-BLOK_FUSE_BLOCK SMF_OMNI-BLOK_FUSE_BLOCK  SMF_OMNI-BLOK_FUSE_BLOCK SMF_OMNI-BLOK_FUSE_BLOCK           1
+LAMBDA                                 HEADER_POS4_43045-0401    43045-0400               con-molex-micro-fit-3_0            1
+LED5          RED                      LED1206                   LED-1206                 SparkFun-LED                       1
+LED12         RED                      LED1206                   LED-1206                 SparkFun-LED                       1
+LEDH          RED                      LED1206                   LED-1206                 SparkFun-LED                       1
+LEDIC1        BLUE                     LED1206                   LED-1206                 SparkFun-LED                       1
+LEDIC2        RED                      LED1206                   LED-1206                 SparkFun-LED                       1
+LEDIC3        YELLOW                   LED1206                   LED-1206                 SparkFun-LED                       1
+LEDIC4        GREEN                    LED1206                   LED-1206                 SparkFun-LED                       1
+LEDIC5        GREEN                    LED1206                   LED-1206                 SparkFun-LED                       1
+MAIN_FUSE     SMF_OMNI-BLOK_FUSE_BLOCK SMF_OMNI-BLOK_FUSE_BLOCK  SMF_OMNI-BLOK_FUSE_BLOCK SMF_OMNI-BLOK_FUSE_BLOCK           1
+MAX232EID     MAX232EIDWG4             MAX232EIDWG4              MAX232EIDWG4             MAX232EIDWG4                       1
+MCP2551       MCP2551                  MCP2551                   SO-08M                   skpang_lib                         1
+OPAMP         TLC2272                  LMV358M                   SO08                     linear                             1
+P_D                                    HEADER_POS4_43045-0401    43045-0400               con-molex-micro-fit-3_0            1
+Q-BZ          BSS138                   MOSFET-NCHANNELBSS123LT1G SOT23-3                  SparkFun-DiscreteSemi              1
+Q-T1          BSS138                   MOSFET-NCHANNELBSS123LT1G SOT23-3                  SparkFun-DiscreteSemi              1
+Q-T2          BSS138                   MOSFET-NCHANNELBSS123LT1G SOT23-3                  SparkFun-DiscreteSemi              1
+Q-T3          BSS138                   MOSFET-NCHANNELBSS123LT1G SOT23-3                  SparkFun-DiscreteSemi              1
+Q-T4          BSS138                   MOSFET-NCHANNELBSS123LT1G SOT23-3                  SparkFun-DiscreteSemi              1
+Q-T5          BSS138                   MOSFET-NCHANNELBSS123LT1G SOT23-3                  SparkFun-DiscreteSemi              1
+Q-T6          BSS138                   MOSFET-NCHANNELBSS123LT1G SOT23-3                  SparkFun-DiscreteSemi              1
+Q-T7          BSS138                   MOSFET-NCHANNELBSS123LT1G SOT23-3                  SparkFun-DiscreteSemi              1
+Q-T8          BSS138                   MOSFET-NCHANNELBSS123LT1G SOT23-3                  SparkFun-DiscreteSemi              1
+Q-T9          BSS138                   MOSFET-NCHANNELBSS123LT1G SOT23-3                  SparkFun-DiscreteSemi              1
+Q-T10         BSS138                   MOSFET-NCHANNELBSS123LT1G SOT23-3                  SparkFun-DiscreteSemi              1
+Q-T11         BSS138                   MOSFET-NCHANNELBSS123LT1G SOT23-3                  SparkFun-DiscreteSemi              1
+Q-T12         BSS138                   MOSFET-NCHANNELBSS123LT1G SOT23-3                  SparkFun-DiscreteSemi              1
+Q-T13         BSS138                   MOSFET-NCHANNELBSS123LT1G SOT23-3                  SparkFun-DiscreteSemi              1
+QH            NMOSFET                  MOSFET-NCHANNELFDD8780    DPAK                     SparkFun-DiscreteSemi              1
+QS            NMOSFET                  MOSFET-NCHANNELFDD8780    DPAK                     SparkFun-DiscreteSemi              1
+R-BZ          100                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R-BZD         10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R-CANH        100                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R-CANL        100                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R-T1H         10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R-T1L         10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R-T2H         10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R-T2L         10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R-T3H         10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R-T3L         10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R-T4H         10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R-T4L         10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R-T5H         10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R-T5L         10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R-T6H         10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R-T6L         10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R-T7H         10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R-T7L         10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R-T8H         10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R-T8L         10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R-T9H         10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R-T9L         10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R-T10H        10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R-T10L        10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R-T11H        10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R-T11L        10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R-T12H        10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R-T12L        10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R-T13H        10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R-T13L        10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R-TCD         4.7k                     RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R5S0          1470                     RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R5S1          2                        RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R50           1470                     RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+R51           2                        RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RB1           39k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RB2           11k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RBV1          39k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RBV2          11k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RDR232A       1k                       RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RDR232B       1k                       RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RDT232A       1k                       RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RDT232B       1k                       RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RF1           39k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RF2           11k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RG1           39k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RG2           15k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RG3           15k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RH1           9.1k                     RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RH2           11                       RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RH2O1                                  RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RH2O2                                  RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RH3           11                       RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RH4           1.2k                     RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RHS1          33k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RHS2          56k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RHS3          10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RHS4          10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RHS5          33k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RHS6          56k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RHS7          10K                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RHS8          56k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RIC1          560                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RIC2          560                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RIC3          560                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RIC4          560                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RIC5          560                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RKV1          110k                     RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RKV2          10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RL1                                    RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RL2                                    RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RL5           560                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RL12          560                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+ROIL1                                  RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+ROIL2                                  RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RREF1         10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RREF2         10k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RREF3         33k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RREF4         56k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RREF5         10K                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RS1           9.1k                     RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RS2           11                       RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RS3           11                       RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RS232-A                                HEADER_POS4_43045-0401    43045-0400               con-molex-micro-fit-3_0            1
+RS232-B                                HEADER_POS4_43045-0401    43045-0400               con-molex-micro-fit-3_0            1
+RSP1          39k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RSP2          11k                      RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RW1                                    RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RW2                                    RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RW3           1k                       RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RW4           1k                       RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RW5                                    RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+RW6                                    RESISTOR0805-RES          0805                     SparkFun-Resistors                 1
+SPEEDSERVO                             HEADER_POS4_43045-0401    43045-0400               con-molex-micro-fit-3_0            1
+SPI                                    M03X2POGO_PINS            2X3_POGO                 SparkFun-Connectors                1
+SPJÆLD                                 HEADER_POS4_43045-0401    43045-0400               con-molex-micro-fit-3_0            1
+STARTER                                HEADER_POS4_43045-0401    43045-0400               con-molex-micro-fit-3_0            1
+TEMP                                   HEADER_POS4_43045-0401    43045-0400               con-molex-micro-fit-3_0            1
+U$1           AXA003A0XZ               AXA003A0XZ                SIP                      Austin-MiniLynx-DC-DC              1
+U$9           TEENSY_3.6_DIL           TEENSY_3.6_DIL            TEENSY_3.6_DIL           Teensy_3_and_LC_Series_Boards_v1.4 1
+U$10          AXA003A0XZ               AXA003A0XZ                SIP                      Austin-MiniLynx-DC-DC              1
+UART                                   PINHD-2X2                 2X02                     pinhead                            1
+VOUT                                   JUMPER-3PTH               1X03                     SparkFun-Retired                   1
+VREF                                   JUMPER-3PTH               1X03                     SparkFun-Retired                   1
+WHEEL                                  HEADER_POS4_43045-0401    43045-0400               con-molex-micro-fit-3_0            1
+Z-S1          3.3                      ZENER                     SOD123                   diodes                             1
+Z-S2          3.3                      ZENER                     SOD123                   diodes                             1
+Z-S3          3.3                      ZENER                     SOD123                   diodes                             1
+Z-U1          3.3                      ZENER                     SOD123                   diodes                             1
+Z-U2          3.3                      ZENER                     SOD123                   diodes                             1
+ZB            3.3                      ZENER                     SOD123                   diodes                             1
+ZBV           3.3                      ZENER                     SOD123                   diodes                             1
+ZF            3.3                      ZENER                     SOD123                   diodes                             1
+ZG            3.3                      ZENER                     SOD123                   diodes                             1
+ZH1           3.3                      ZENER                     SOD123                   diodes                             1
+ZH2O          3.3                      ZENER                     SOD123                   diodes                             1
+ZK            3.3                      ZENER                     SOD123                   diodes                             1
+ZKV           3.3                      ZENER                     SOD123                   diodes                             1
+ZL            3.3                      ZENER                     SOD123                   diodes                             1
+ZOIL          3.3                      ZENER                     SOD123                   diodes                             1
+ZSP           3.3                      ZENER                     SOD123                   diodes                             1
+ZW0           3.3                      ZENER                     SOD123                   diodes                             1
+ZW1           3.3                      ZENER                     SOD123                   diodes                             1
+ZXL-1         3.3                      ZENER                     SOD123                   diodes                             1
+ZXL-2         3.3                      ZENER                     SOD123                   diodes                             1

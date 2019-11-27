@@ -1,0 +1,34 @@
+-----------------------------------------------
+
+TODO list in regards to the Lightboards 2017
+
+-----------------------------------------------
+
+*=============*
+*    BACK     *
+*=============*
+
+Liste for IO:             Port:     LED:  Kommunikation:
+1. Normal/Brake Light     OUT2A     6+9
+2. Turn Right Light       OUT3B     8
+3. Right Starter Light    OUT1A     3
+4. Left Starter Light     OUT4A     13
+5. Turn Left Light        OUT3A     7
+
+Spørgsmål:
+Hvad betyder LED nummer?
+Hvad er starter lys?
+
+TODO:
+
+*=============*
+*    FRONT    *
+*=============*
+
+Liste for IO:             Port:     LED:  Kommunikation:
+1. Horn                   OUT3A     -
+2. Brake                  IN1       -
+3. Wiper                  OUT2A     -
+4. Fan                    OUT2B     -
+5. Left Combo Light       OUT1      3+4
+6. Right Combo Light      OUT4      4+5

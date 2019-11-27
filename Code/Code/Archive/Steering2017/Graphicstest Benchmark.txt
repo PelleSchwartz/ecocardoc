@@ -1,0 +1,38 @@
+TFT LCD test (MEGA2560)
+Using Adafruit 2.4" TFT Arduino Shield Pinout
+TFT size is 320x480
+Found ILI9481 LCD driver
+Benchmark                Time (microseconds)
+Screen fill              3396100
+Text                     473908
+Lines                    9654200
+Horiz/Vert Lines         374948
+Rectangles (outline)     233736
+Rectangles (filled)      10262564
+Circles (filled)         3445876
+Circles (outline)        4115840
+Triangles (outline)      2691264
+Triangles (filled)       4779288
+Rounded rects (outline)  1274952
+Rounded rects (filled)   11748056
+Done!
+
+Teensy 3.6 @ 180 MHz with digitalWrite
+TFT size is 320x480
+Found ILI9481 LCD driver
+Begin reached for 9481
+Begin finished for 9481
+Benchmark                Time (microseconds)
+Screen fill              1272274
+Text                     237612
+Lines                    5287629
+Horiz/Vert Lines         167569
+Rectangles (outline)     104379
+Rectangles (filled)      4461404
+Circles (filled)         1566518
+Circles (outline)        2265212
+Triangles (outline)      1475134
+Triangles (filled)       1946361
+Rounded rects (outline)  682370
+Rounded rects (filled)   5300519
+Done!

@@ -1,0 +1,79 @@
+motorMain.c WHILE(1)
+
+	
+			/*
+			//KERS
+			if(steering_reg[STEERING_KRES_START] && (kers_burn == 0)) {
+				// Activate KERS burn
+				//rs232_EPOS_transmit(0x21);
+				//SETBIT(PORTD, LED2_PIN_D);
+				writeObject(0x11, 0x6040, 0x00, 0x0080, 0xF839);	// Clear Fault
+				writeObject(0x11, 0x6060, 0x00, 0x0003, 0xF4C5);	// Set Operation Mode (Profile Velocity)
+				writeObject(0x11, 0x6402, 0x00, 0x000A, 0xB6C0);	// Set Motor Type
+				writeObject(0x11, 0x6410, 0x01, 0x16DA, 0x12A3);	// Set Nominal Current
+				writeObject(0x11, 0x6410, 0x02, 0x2DB4, 0x4EED);	// Set Max Output Current
+				writeObject(0x11, 0x6410, 0x05, 0x0153, 0x74E4);	// Set time Winding Constant
+				writeObject(0x11, 0x6083, 0x00, 0x0073, 0xECAC);	// Set Profile Acceleration
+				writeObject(0x11, 0x6084, 0x00, 0x0073, 0xF5E8);	// Set Profile Deceleration
+				writeObject(0x11, 0x6040, 0x00, 0x0006, 0x71C3);	// Set Enable 1
+				writeObject(0x11, 0x6040, 0x00, 0x000F, 0xEF52);	// Set Enable 2
+				
+				//writeObject(0x11, 0x6040, 0x00, 0x0080, 0xF839);	// Clear Fault
+				writeObject(0x11, 0x2079, 0x01, 0x000F, 0xC192);	// Configure Clutch
+				writeObject(0x11, 0x2078, 0x01, 0x8005, 0x630A);	// Configure Clutch State
+				writeObject(0x11, 0x2078, 0x02, 0x8000, 0x6628);	// Configure Clutch Mask
+				writeObject(0x11, 0x2078, 0x03, 0x0000, 0x1141);	// Configure Clutch Polarity
+				writeObject(0x11, 0x2078, 0x01, 0x8000, 0x88FA);	// Activate Clutch
+				
+				writeObject(0x11, 0x60FF, 0x00, 0xFFFFFDF3, 0xBA38);	// Set Move Velocity
+				writeObject(0x11, 0x6040, 0x00, 0x000F, 0xEF52);	// Set Enable 2 (Move!)
+				//kers_reg_w[KERS_W_BOOST] = 1;
+				
+				kers_burn = 1;
+			}
+			
+			if(!steering_reg[STEERING_KRES_START] && (kers_burn == 1)) {
+				//CLRBIT(PORTA, 6);//was apparantly just an LED
+				// Deactivate KERS burn
+				writeObject(0x11, 0x6040, 0x00, 0x0080, 0xF839);	// Clear Fault
+				writeObject(0x11, 0x2079, 0x01, 0x000F, 0xC192);	// Configure Clutch
+				writeObject(0x11, 0x2078, 0x01, 0x8005, 0x630A);	// Configure Clutch State
+				writeObject(0x11, 0x2078, 0x02, 0x8000, 0x6628);	// Configure Clutch Mask
+				writeObject(0x11, 0x2078, 0x03, 0x0000, 0x1141);	// Configure Clutch Polarity
+				writeObject(0x11, 0x2078, 0x01, 0x0000, 0x55C2);	// Deactivate Clutch
+				
+				writeObject(0x11, 0x6040, 0x00, 0x0000, 0xC363);	// Set Disable State
+				
+				//kers_reg_w[KERS_W_BOOST] = 0;
+				kers_burn = 0;
+			}
+
+			if(steering_reg[STEERING_KRES_STOP] && (kers_brake == 0)){
+				// Activate KERS brake
+				
+				//kers_reg_w[KERS_W_STORE] = 1;
+				//SETBIT(PORTA, 6);//TODO need to know what this is
+				writeObject(0x11, 0x6040, 0x00, 0x0080, 0xF839);	// Clear Fault
+				writeObject(0x11, 0x2079, 0x01, 0x000F, 0xC192);	// Configure Clutch
+				writeObject(0x11, 0x2078, 0x01, 0x8005, 0x630A);	// Configure Clutch State
+				writeObject(0x11, 0x2078, 0x02, 0x8000, 0x6628);	// Configure Clutch Mask
+				writeObject(0x11, 0x2078, 0x03, 0x0000, 0x1141);	// Configure Clutch Polarity
+				writeObject(0x11, 0x2078, 0x01, 0x8000, 0x88FA);	// Activate Clutch
+				
+				kers_brake = 1;
+			}
+			
+			if(!steering_reg[STEERING_KRES_STOP] && (kers_brake == 1)){
+				
+				//kers_reg_w[KERS_W_STORE] = 0;
+				// De-activate KERS brake
+				writeObject(0x11, 0x6040, 0x00, 0x0080, 0xF839);	// Clear Fault
+				writeObject(0x11, 0x2079, 0x01, 0x000F, 0xC192);	// Configure Clutch
+				writeObject(0x11, 0x2078, 0x01, 0x8005, 0x630A);	// Configure Clutch State
+				writeObject(0x11, 0x2078, 0x02, 0x8000, 0x6628);	// Configure Clutch Mask
+				writeObject(0x11, 0x2078, 0x03, 0x0000, 0x1141);	// Configure Clutch Polarity
+				writeObject(0x11, 0x2078, 0x01, 0x0000, 0x55C2);	// Deactivate Clutch
+				kers_brake = 0;
+			}
+			*/
+			

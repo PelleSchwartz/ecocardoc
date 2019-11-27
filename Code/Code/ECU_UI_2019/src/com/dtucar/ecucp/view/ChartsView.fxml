@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.ScrollPane?>
+<ScrollPane fx:id="charts" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.dtucar.ecucp.controller.ChartsController" prefHeight="900.0" prefWidth="1080.0" fitToWidth="true">
+    <!-- The charts are added into this VBox by the Controller -->
+    <VBox fx:id="chartsBox"/>
+</ScrollPane>

@@ -1,0 +1,17 @@
+Bugs:
+
+Additions:
+- Comment View
+- Comment Controller
+
+Nice-tos:
+- Lambda chart: Set line on chart for ideal value
+- Set injection by dragging points on a graph
+- Wheel encoder: Show count waveform
+- Button for stop test in leftview when test running
+- On connect, ask if load to or from ECU
+- Implement Bluetooth or other wireless communication
+
+Known weird things:
+- When using LutTable -> Import table, and selecting a full configuration file, it will load the entire file with all configs
+- Freeze if you Serial.print too fast over longer periods (non JSON) with Left Log active (pause Left Log to remove problem, could be fixed by changing it to ListView, but that would make selecting and copying worse)

@@ -1,0 +1,191 @@
+.background {
+    -fx-background-color: white;
+}
+
+.text-field {
+    -fx-font-size: 12pt;
+    -fx-font-family: "Segoe UI Semibold";
+}
+.text-field:disabled {
+    -fx-opacity: 1.0;
+}
+
+.text-area {
+    -fx-font-size: 12pt;
+    -fx-font-family: "Segoe UI Semibold";
+}
+
+/*noinspection CssInvalidFunction*/
+TextFlow {
+    -fx-font-size: 12pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-padding: 0.25em 0.583em 0.25em 0.583em;
+    -fx-background-color: linear-gradient(from 0px 0px to 0px 4px, derive(-fx-control-inner-background, -8%), -fx-control-inner-background);
+    -fx-background-radius: 2;
+}
+
+/*noinspection CssInvalidFunction*/
+TextFlow:focused {
+    -fx-background-color:
+        -fx-control-inner-background,
+        -fx-faint-focus-color,
+        linear-gradient(from 0px 0px to 0px 10px, derive(-fx-control-inner-background, -9%), -fx-control-inner-background);
+    -fx-background-insets: 0, 0, 2;
+    -fx-background-radius: 2, 1, 0;
+}
+
+/* 
+ * Metro style buttons
+ * Author: Pedro Duque Vieira
+ * http://pixelduke.wordpress.com/2012/10/23/jmetro-windows-8-controls-on-java/
+ */
+.button,
+.toggle-button {
+    -fx-padding: 5 22 5 22;
+    -fx-border-color: #e2e2e2;
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-background-color: #1d1d1d;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 11pt;
+    -fx-text-fill: #d8d8d8;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+.button:hover,
+.toggle-button:hover {
+    -fx-background-color: #3a3a3a;
+}
+
+.toggle-button:selected,
+.toggle-button:selected:focused {
+    -fx-background-color: #49b700;
+    -fx-text-fill: #1d1d1d;
+}
+
+.button:pressed, .button:default:hover:pressed,
+.toggle-button:pressed, .toggle-button:default:hover:pressed {
+    -fx-background-color: white;
+    -fx-text-fill: #1d1d1d;
+}
+
+.button:focused,
+.toggle-button:focused {
+    -fx-border-color: white, white;
+    -fx-border-width: 1, 1;
+    /*noinspection CssInvalidFunction*/
+    -fx-border-style: solid, segments(1, 1);
+    -fx-border-radius: 0, 0;
+    -fx-border-insets: 1 1 1 1, 0;
+}
+
+.button:disabled, .button:default:disabled,
+.toggle-button:disabled, .toggle-button:default:disabled {
+    -fx-opacity: 0.4;
+    -fx-background-color: #1d1d1d;
+    -fx-text-fill: white;
+}
+
+.button:default,
+.toggle-button:default {
+    -fx-background-color: -fx-focus-color;
+    -fx-text-fill: #ffffff;
+}
+
+.button:default:hover,
+.toggle-button:default:hover {
+    -fx-background-color: derive(-fx-focus-color, 30%);
+}
+
+.stop-button {
+    -fx-background-color: #ff1d1d;
+    -fx-font-size: 20;
+    -fx-padding: 10 50 10 50;
+}
+
+.stop-button:hover {
+    -fx-background-color: #ff5654;
+}
+
+.stop-button:pressed {
+    -fx-background-color: #ffffff;
+}
+
+/* 
+ * Table Properties
+ */
+.table-view {
+    -fx-base: #006AC1;
+    -fx-control-inner-background: white;
+    -fx-background-color: white;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+    -fx-padding: 5;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-size: 35px;
+    -fx-border-width: 0 0 1 0;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent derive(-fx-base, 80%) transparent;
+    -fx-border-insets: 0 10 1 0;
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 16pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: black;
+    -fx-alignment: center-left;
+    -fx-opacity: 1;
+}
+
+.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: -fx-focus-color;
+}
+
+/*
+ * Split Pane Properties
+ */
+.split-pane:horizontal > .split-pane-divider {
+    -fx-border-color: transparent #006AC1 transparent #006AC1;
+    -fx-background-color: transparent, derive(#006AC1, 20%);
+}
+
+.split-pane {
+    -fx-padding: 1 0 0 0;
+}
+
+/* 
+ * Label Properties
+ */
+.label {
+    -fx-font-size: 13pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: black;
+    -fx-opacity: 0.6;
+}
+
+.label-bright {
+    -fx-font-size: 13pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: black;
+    -fx-opacity: 1;
+}
+
+.label-header {
+    -fx-font-size: 32pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: black;
+    -fx-opacity: 1;
+}
+
+/* 
+ * Scroll Pane Properties
+ */
+.scroll-pane {
+    -fx-background-color: transparent;
+}

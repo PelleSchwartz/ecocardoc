@@ -1,0 +1,54 @@
+The SC1256TG pushes 277.2 oz of torque and this servo is perfect for those who are running a 4x4 short course truck and don't want to blow their whole wad on their servo. The SC-1256TG sports titanium and metal gears to keep things strong and running smooth. 
+
+Features:
+Combines leading edge technology with super high 12 bit (4096) resolution and titanium gears.
+Super light-weight.
+Coreless motor provides high speed, incredible efficiency, and low power consumption.
+Titanium gears ensure long life and durability.
+The aluminum case design not only looks good but also allows for cooler and smoother operating temps.
+Our servos are totally green – from materials to production, these servos are environmentally friendly.
+Ideal for steering applications in 1/8 scale buggies, monster trucks and rock crawlers.
+Dimensions(mm): 40.3x20.2x37.2
+Weight(g):52.4
+Speed(@4.8V sec/60): .18
+Torque(@4.8V oz-in): 222.2
+Speed(@6.0V sec/60): .15
+Torque(@6.0V oz-in): 277.7
+Gear: Titanium & Aluminum
+Bearing: 2BB
+Case: Aluminum
+25 Tooth Spline
+Frequency: 250-333hz
+Pulse Width Frequency: 1520
+
+
+Dimensions(mm): 40.3x20.2x37.2
+Weight(g):52.4
+Speed(@4.8V sec/60): .18
+Torque(@4.8V oz-in): 222.2
+Speed(@6.0V sec/60): .15
+Torque(@6.0V oz-in): 277.7
+Gear: Titanium & Aluminum
+Bearing: 2BB
+Case: Aluminum
+25 Tooth Spline
+Frequency: 250-333
+Pulse Width Frequency: 1520
+Running current (at no load): 100 mA @ 4.8V
+Running current (at no load): 120 mA @ 6.0V
+Stall current (at locked): 4000 mA @ 4.8V
+Stall current (at locked): 5000 mA @ 6.0V
+Idle current (at stopped): 5 mA @ 4.8V
+Idle current (at stopped): 5 mA @ 6.0V
+Limit angle: 200°±10°
+Connector wire gauge: #22 AWG
+Connector wire length: 250 ±5 mm
+Horn gear spline: 25T
+Control system: Pulse width modification
+Amplifier type: Digital Controller
+Operating Travel: 100° (when1000?2000 µsec)
+Neutral position: 1500 µsec
+Dead band width: 3 µsec
+Rotating direction: Counterclockwise (when1500?2000 µsec)
+Pulse width range: 800?2200 µsec
+Maximum travel: Approx 130°(when900?2100 µsec)

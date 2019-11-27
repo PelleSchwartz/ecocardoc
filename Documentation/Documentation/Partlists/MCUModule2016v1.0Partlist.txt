@@ -1,0 +1,19 @@
+Partlist
+
+Exported from MCUModule.brd at 19/04/2016 13:07
+
+EAGLE Version 7.5.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part       Value           Package                  Library                       Position (mm)         Orientation
+
+ATMEGA2560 ATMEGA2560-16AU QFP50P1600X1600X120-100N Atmel_By_element14_Batch_1-00 (17.684 17.227)       R0
+C1         18pF            C0805                    rcl                           (19.005 4.057)        MR270
+C2         18pF            C0805                    rcl                           (15.77 4.057)         MR270
+C3         100nF           0805                     SparkFun-Passives             (7.62 27.559)         R0
+CONNECTOR  ECO_MCU_MODULE  MCUMODULE                otopp                         (1.016 2.69875)       R0
+CRYSTAL    QC25-16.000     C25                      QC25-Crystal                  (10.909 3.851)        MR270
+GND_TEST   TEST-POINT3X4   PAD.03X.04               SparkFun-Passives             (0.635 34.925)        R0
+L1         10uH            0805                     SparkFun-Passives             (2.794 27.559)        R0
+VCC_TEST   TEST-POINT3X4   PAD.03X.04               SparkFun-Passives             (0.635 30.48)         R0

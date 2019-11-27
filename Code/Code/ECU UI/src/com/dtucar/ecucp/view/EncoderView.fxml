@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane fx:id="encoder" prefHeight="600.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.dtucar.ecucp.controller.EncoderController">
+    <VBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <TitledPane text="Engine encoder" fx:id="engineEncoderPane">
+            <GridPane hgap="20" vgap="10">
+                <VBox alignment="CENTER_LEFT" minWidth="100.0" spacing="50.0" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.rowSpan="3">
+                    <Button text="Take position 1" onAction="#onTakePosition1" minHeight="40"/>
+                    <Button text="Take position 2" onAction="#onTakePosition2" minHeight="40"/>
+                </VBox>
+                <VBox alignment="CENTER_LEFT" minWidth="50.0" spacing="5.0" GridPane.columnIndex="1" GridPane.rowIndex="0">
+                    <Text text="A-Pulse count"/>
+                    <TextField fx:id="aPulseCount" editable="false" focusTraversable="false"/>
+                </VBox>
+                <VBox alignment="CENTER_LEFT" minWidth="50.0" spacing="5.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                    <Text text="B-Pulse count"/>
+                    <TextField fx:id="bPulseCount" editable="false" focusTraversable="false"/>
+                </VBox>
+                <VBox alignment="CENTER_LEFT" minWidth="50.0" spacing="5.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                    <Text text="Z-Pulse count"/>
+                    <TextField fx:id="zPulseCount" editable="false" focusTraversable="false"/>
+                </VBox>
+                <VBox alignment="CENTER_LEFT" minWidth="50.0" spacing="5.0" GridPane.columnIndex="2" GridPane.rowIndex="0">
+                    <Text text="TDC 1"/>
+                    <TextField fx:id="tdc1Text" editable="false" focusTraversable="false"/>
+                </VBox>
+                <VBox alignment="CENTER_LEFT" minWidth="50.0" spacing="5.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                    <Text text="TDC 2"/>
+                    <TextField fx:id="tdc2Text" editable="false" focusTraversable="false"/>
+                </VBox>
+                <VBox alignment="CENTER_LEFT" minWidth="50.0" spacing="5.0" GridPane.columnIndex="3" GridPane.rowIndex="0">
+                    <Text text="Position 1"/>
+                    <TextField fx:id="position1Text" editable="false" focusTraversable="false"/>
+                </VBox>
+                <VBox alignment="CENTER_LEFT" minWidth="50.0" spacing="5.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                    <Text text="Position 2"/>
+                    <TextField fx:id="position2Text" editable="false" focusTraversable="false"/>
+                </VBox>
+            </GridPane>
+        </TitledPane>
+        <TitledPane text="Wheel encoder" fx:id="wheelEncoderPane">
+            <GridPane fx:id="wheelEncoderGridPane">
+                <columnConstraints>
+                    <ColumnConstraints hgrow="ALWAYS"/>
+                </columnConstraints>
+                <HBox spacing="10.0" alignment="CENTER_LEFT">
+                    <Button text="Reset" minWidth="100.0" onAction="#onResetPressed"/>
+                    <VBox alignment="CENTER_LEFT" minWidth="50.0" spacing="5.0">
+                        <Text text="Speed"/>
+                        <TextField fx:id="speedText" editable="false" focusTraversable="false"/>
+                    </VBox>
+                    <VBox alignment="CENTER_LEFT" minWidth="50.0" spacing="5.0">
+                        <Text text="Distance"/>
+                        <TextField fx:id="distanceText" editable="false" focusTraversable="false"/>
+                    </VBox>
+                    <VBox alignment="CENTER_LEFT" minWidth="50.0" spacing="5.0">
+                        <Text text="Number of problems"/>
+                        <TextField fx:id="encoderNumProblemsText" editable="false" focusTraversable="false"/>
+                    </VBox>
+                    <VBox alignment="CENTER_LEFT" minWidth="50.0" spacing="5.0">
+                        <Text text="Distance 0 count"/>
+                        <TextField fx:id="encoderDistance0Text" editable="false" focusTraversable="false"/>
+                    </VBox>
+                    <VBox alignment="CENTER_LEFT" minWidth="50.0" spacing="5.0">
+                        <Text text="Distance 1 count"/>
+                        <TextField fx:id="encoderDistance1Text" editable="false" focusTraversable="false"/>
+                    </VBox>
+                </HBox>
+                <!-- The speed/time chart (row 1) and the distance/time chart (row 2) are added here by the Controller -->
+            </GridPane>
+        </TitledPane>
+    </VBox>
+</AnchorPane>

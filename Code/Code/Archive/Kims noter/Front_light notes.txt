@@ -1,0 +1,19 @@
+Front light notes.
+
+arduino fil kører først setup() og derefter loop().
+
+Kunne definere en variable eller metode for følgende:
+while(Serial.available() <= 0);
+
+Kunne gøre koden mere let læseligt, hvis der hver gang dette stod, stod Serial_wait i stedet eller noget i den retning.
+
+linje 121:
+Hvorfor negeres reg[LED2_STATE] hver gang.
+
+linje 130
+UCSR0A ???, TXC0 ???
+
+linje 138
+j er ikke brugt efter hvad jeg kan se.
+
+alle pwm punkterne i registeret ser ud til at være ubrugte, undtagen ved read/write operationer.

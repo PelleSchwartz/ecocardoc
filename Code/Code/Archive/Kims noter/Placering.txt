@@ -1,0 +1,35 @@
+Gammel rapport: (indeholder serial protokollen der bliver brugt.)
+øko bil\2012-2013\Rapport\master
+
+
+øko bil\2013-2014\Motor 2014\Nyt design\ATmega1284P
+
+øko bil\2014-2015\Atmel.pdf
+Atmega 2560
+
+
+Download Putty (text terminal.)
+
+
+kode eksempel:
+øko bil\2013-2014\Motor 2014\Nyt design\Ingikode\Motorboard2014\Motorboard2014.c
+
+2560
+
+
+Gammel board skema
+øko bil\2012-2013\Main Board\main.pdf
+
+
+sted at spørge om hjælp
+http://www.avrfreaks.net/
+
+fuse calculator
+http://www.engbedded.com/fusecalc/
+
+usb dims
+http://www.farnell.com/datasheets/652302.pdf
+
+
+fuldguide:
+http://www.ftdichip.com/Support/Documents/AppNotes/AN_119_FTDI_Drivers_Installation_Guide_for_Windows7.pdf

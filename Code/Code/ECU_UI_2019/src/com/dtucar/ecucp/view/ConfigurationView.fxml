@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.dtucar.ecucp.view.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<GridPane fx:id="configuration" prefHeight="600.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dtucar.ecucp.controller.ConfigurationController">
+    <rowConstraints>
+        <RowConstraints minHeight="100.0" prefHeight="300.0" vgrow="SOMETIMES"/>
+        <RowConstraints minHeight="100.0" prefHeight="200.0" vgrow="SOMETIMES"/>
+    </rowConstraints>
+    <TableView fx:id="lutTable" editable="true" VBox.vgrow="ALWAYS" GridPane.hgrow="ALWAYS" GridPane.rowIndex="0">
+        <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+        </columnResizePolicy>
+    </TableView>
+    <ScrollPane GridPane.rowIndex="1">
+        <GridPane>
+            <rowConstraints>
+                <RowConstraints minHeight="30.0"/>
+                <RowConstraints minHeight="30.0"/>
+                <RowConstraints minHeight="30.0"/>
+                <RowConstraints minHeight="30.0"/>
+                <RowConstraints minHeight="30.0"/>
+                <RowConstraints minHeight="30.0"/>
+            </rowConstraints>
+            <columnConstraints>
+                <ColumnConstraints/>
+                <ColumnConstraints/>
+                <ColumnConstraints/>
+                <ColumnConstraints/>
+                <ColumnConstraints/>
+                <ColumnConstraints/>
+                <ColumnConstraints/>
+            </columnConstraints>
+            <Text text="Engine" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="0">
+                <font>
+                    <Font name="System Bold" size="14.0"/>
+                </font>
+            </Text>
+            <TitledPane collapsible="false" focusTraversable="false" text="Engine Calibration" GridPane.columnIndex="0" GridPane.rowIndex="1">
+                <tooltip>
+                    <Tooltip maxWidth="400" wrapText="true" text="%engine_calibration_tooltip"/>
+                </tooltip>
+                <ConfigTextField fx:id="engineCalibrationText"/>
+            </TitledPane>
+            <TitledPane collapsible="false" focusTraversable="false" text="Max RPM Limit [RPM]" GridPane.columnIndex="0" GridPane.rowIndex="2">
+                <tooltip>
+                    <Tooltip maxWidth="400" wrapText="true" text="%max_rpm_tooltip"/>
+                </tooltip>
+                <ConfigTextField fx:id="maxRpmText"/>
+            </TitledPane>
+            <TitledPane collapsible="false" focusTraversable="false" text="Starter Limit [RPM]" GridPane.columnIndex="0" GridPane.rowIndex="3">
+                <tooltip>
+                    <Tooltip maxWidth="400" wrapText="true" text="%start_limit_tooltip"/>
+                </tooltip>
+                <ConfigTextField fx:id="starterLimitText"/>
+            </TitledPane>
+            <TitledPane collapsible="false" focusTraversable="false" text="Idle Limit [RPM]" GridPane.columnIndex="0" GridPane.rowIndex="4">
+                <tooltip>
+                    <Tooltip maxWidth="400" wrapText="true" text="%idle_limit_tooltip"/>
+                </tooltip>
+                <ConfigTextField fx:id="idleLimitText"/>
+            </TitledPane>
+            <TitledPane collapsible="false" focusTraversable="false" text="Fuel Tank Volume [mL]" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                <tooltip>
+                    <Tooltip maxWidth="400" wrapText="true" text="%fuel_tank_volume_tooltip"/>
+                </tooltip>
+                <ConfigTextField fx:id="fuelTankVolumeText"/>
+            </TitledPane>
+            <TitledPane collapsible="false" focusTraversable="false" text="Ignition Dwell Time [ms]" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                <tooltip>
+                    <Tooltip maxWidth="400" wrapText="true" text="%ignition_dwell_time_tooltip"/>
+                </tooltip>
+                <ConfigTextField fx:id="ignitionDwellTimeText"/>
+            </TitledPane>
+            <TitledPane collapsible="false" focusTraversable="false" text="Injection Timing [CAD BTDC]" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                <tooltip>
+                    <Tooltip maxWidth="400" wrapText="true" text="%injection_timing_tooltip"/>
+                </tooltip>
+                <ConfigTextField fx:id="injectionTimingText"/>
+            </TitledPane>
+            <TitledPane collapsible="false" focusTraversable="false" text="Idle Injection [µs]" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                <tooltip>
+                    <Tooltip maxWidth="400" wrapText="true" text="%idle_injection_tooltip"/>
+                </tooltip>
+                <ConfigTextField fx:id="idleInjectionText"/>
+            </TitledPane>
+            <Text text="Gear" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="0">
+                <font>
+                    <Font name="System Bold" size="14.0"/>
+                </font>
+            </Text>
+            <TitledPane collapsible="false" focusTraversable="false" text="Gear Change Wait [ms]" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                <tooltip>
+                    <Tooltip maxWidth="400" wrapText="true" text="%gear_change_wait_tooltip"/>
+                </tooltip>
+                <ConfigTextField fx:id="gearChangeWaitText"/>
+            </TitledPane>
+            <TitledPane collapsible="false" focusTraversable="false" text="Gear Change Limit [RPM]" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                <tooltip>
+                    <Tooltip maxWidth="400" wrapText="true" text="%gear_change_limit_tooltip"/>
+                </tooltip>
+                <ConfigTextField fx:id="gearChangeLimitText"/>
+            </TitledPane>
+            <TitledPane collapsible="false" focusTraversable="false" text="Gear Up Speed [km/h]" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                <tooltip>
+                    <Tooltip maxWidth="400" wrapText="true" text="%gear_up_speed_tooltip"/>
+                </tooltip>
+                <ConfigTextField fx:id="gearUpSpeedText"/>
+            </TitledPane>
+            <TitledPane collapsible="false" focusTraversable="false" text="Gear Down Speed [km/h]" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                <tooltip>
+                    <Tooltip maxWidth="400" wrapText="true" text="%gear_down_speed_tooltip"/>
+                </tooltip>
+                <ConfigTextField fx:id="gearDownSpeedText"/>
+            </TitledPane>
+            <Text text="Fuel and Lambda" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="0">
+                <font>
+                    <Font name="System Bold" size="14.0"/>
+                </font>
+            </Text>
+            <TitledPane collapsible="false" focusTraversable="false" text="Fuel Conversion Slope [µg/µs]" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                <tooltip>
+                    <Tooltip maxWidth="400" wrapText="true" text="%fuel_conversion_slope_tooltip"/>
+                </tooltip>
+                <ConfigTextField fx:id="fuelConversionSlopeText"/>
+            </TitledPane>
+            <TitledPane collapsible="false" focusTraversable="false" text="Fuel Conversion Intercept [µg]" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                <tooltip>
+                    <Tooltip maxWidth="400" wrapText="true" text="%fuel_conversion_intercept_tooltip"/>
+                </tooltip>
+                <ConfigTextField fx:id="fuelConversionInterceptText"/>
+            </TitledPane>
+            <TitledPane collapsible="false" focusTraversable="false" text="Lambda Conversion Slope [1/V]" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                <tooltip>
+                    <Tooltip maxWidth="400" wrapText="true" text="%lambda_conversion_slope_tooltip"/>
+                </tooltip>
+                <ConfigTextField fx:id="lambdaConversionSlopeText" editable="false"/>
+            </TitledPane>
+            <TitledPane collapsible="false" focusTraversable="false" text="Lambda Conversion Intercept []" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                <tooltip>
+                    <Tooltip maxWidth="400" wrapText="true" text="%lambda_conversion_intercept_tooltip"/>
+                </tooltip>
+                <ConfigTextField fx:id="lambdaConversionInterceptText" editable="false"/>
+            </TitledPane>
+            <Text text="Fuel Properties" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="0">
+                <font>
+                    <Font name="System Bold" size="14.0"/>
+                </font>
+            </Text>
+            <TitledPane collapsible="false" focusTraversable="false" text="Fuel Density [g/L]" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                <tooltip>
+                    <Tooltip maxWidth="400" wrapText="true" text="%fuel_density_tooltip"/>
+                </tooltip>
+                <ConfigTextField fx:id="fuelDensityText"/>
+            </TitledPane>
+            <TitledPane collapsible="false" focusTraversable="false" text="Fuel Lower Heating Value [kJ/kg]" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                <tooltip>
+                    <Tooltip maxWidth="400" wrapText="true" text="%fuel_lower_heating_value_tooltip"/>
+                </tooltip>
+                <ConfigTextField fx:id="fuelLowerHeatingValueText"/>
+            </TitledPane>
+            <TitledPane collapsible="false" focusTraversable="false" text="Equivalent Lower Heating V. [kJ/kg]" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                <tooltip>
+                    <Tooltip maxWidth="400" wrapText="true" text="%equivalent_lower_heating_value_tooltip"/>
+                </tooltip>
+                <ConfigTextField fx:id="equivalentLowerHeatingValueText"/>
+            </TitledPane>
+            <Text text="Speed" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="0">
+                <font>
+                    <Font name="System Bold" size="14.0"/>
+                </font>
+            </Text>
+            <TitledPane collapsible="false" focusTraversable="false" text="Wheel Diameter [m]" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                <tooltip>
+                    <Tooltip maxWidth="400" wrapText="true" text="%wheel_diameter_tooltip"/>
+                </tooltip>
+                <ConfigTextField fx:id="wheelDiameterText"/>
+            </TitledPane>
+            <TitledPane collapsible="false" focusTraversable="false" text="Pulses per Revolution" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                <tooltip>
+                    <Tooltip maxWidth="400" wrapText="true" text="%pulses_per_revolution_tooltip"/>
+                </tooltip>
+                <ConfigTextField fx:id="pulsesPerRevolutionText"/>
+            </TitledPane>
+            <Text text="Gear PWM" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="0">
+                <font>
+                    <Font name="System Bold" size="14.0"/>
+                </font>
+            </Text>
+            <TitledPane collapsible="false" focusTraversable="false" text="Neutral PWM" GridPane.columnIndex="6" GridPane.rowIndex="1">
+                <tooltip>
+                    <Tooltip maxWidth="400" wrapText="true" text="%gear_neutral_pwm_tooltip"/>
+                </tooltip>
+                <ConfigTextField fx:id="gearNeutralPwmText"/>
+            </TitledPane>
+            <TitledPane collapsible="false" focusTraversable="false" text="Gear 1 PWM" GridPane.columnIndex="6" GridPane.rowIndex="2">
+                <tooltip>
+                    <Tooltip maxWidth="400" wrapText="true" text="%gear_1_pwm_tooltip"/>
+                </tooltip>
+                <ConfigTextField fx:id="gear1PwmText"/>
+            </TitledPane>
+            <TitledPane collapsible="false" focusTraversable="false" text="Gear 2 PWM" GridPane.columnIndex="6" GridPane.rowIndex="3">
+                <tooltip>
+                    <Tooltip maxWidth="400" wrapText="true" text="%gear_2_pwm_tooltip"/>
+                </tooltip>
+                <ConfigTextField fx:id="gear2PwmText"/>
+            </TitledPane>
+        </GridPane>
+    </ScrollPane>
+    <columnConstraints>
+        <ColumnConstraints/>
+    </columnConstraints>
+</GridPane>

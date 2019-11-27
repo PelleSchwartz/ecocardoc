@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<AnchorPane fx:id="main" stylesheets="@AppTheme.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.dtucar.ecucp.controller.MainController" prefHeight="720.0" prefWidth="1280.0">
+    <VBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <HBox>
+            <MenuBar HBox.hgrow="ALWAYS">
+                <Menu id="fileMenu" mnemonicParsing="false" text="File">
+                    <graphic>
+                        <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                            <Image url="@../assets/logo48.png"/>
+                        </ImageView>
+                    </graphic>
+                    <MenuItem mnemonicParsing="false" onAction="#save" text="Save"/>
+                    <MenuItem mnemonicParsing="false" onAction="#saveConfiguration" text="Save configuration..."/>
+                    <MenuItem mnemonicParsing="false" onAction="#loadConfiguration" text="Load configuration..."/>
+                    <SeparatorMenuItem mnemonicParsing="false"/>
+                    <MenuItem mnemonicParsing="false" onAction="#onRestart" text="Restart"/>
+                    <MenuItem mnemonicParsing="false" onAction="#onExit" text="Exit"/>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                    <MenuItem mnemonicParsing="false" onAction="#handleAbout" text="About"/>
+                </Menu>
+            </MenuBar>
+            <MenuBar>
+                <Menu mnemonicParsing="false" onShown="#dtuLogoPressed">
+                    <graphic>
+                        <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                            <Image url="@../assets/dtulogo.png"/>
+                        </ImageView>
+                    </graphic>
+                    <MenuItem/> <!-- This empty menu item is needed, otherwise onShown does not work -->
+                </Menu>
+            </MenuBar>
+        </HBox>
+        <SplitPane dividerPositions="0.15625" VBox.vgrow="ALWAYS">
+            <AnchorPane prefWidth="200.0" maxWidth="200.0" VBox.vgrow="ALWAYS">
+                <fx:include fx:id="left" source="LeftView.fxml" AnchorPane.bottomAnchor="0" AnchorPane.topAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0"/>
+            </AnchorPane>
+            <TabPane fx:id="tabPane">
+                <Tab text="Cockpit" closable="false">
+                    <fx:include fx:id="cockpit" source="CockpitView.fxml"/>
+                </Tab>
+                <Tab text="Configuration" closable="false">
+                    <fx:include fx:id="configuration" source="ConfigurationView.fxml"/>
+                </Tab>
+                <Tab text="Test" closable="false">
+                    <fx:include fx:id="test" source="TestView.fxml"/>
+                </Tab>
+                <Tab text="Charts" fx:id="chartsTab" closable="false">
+                    <fx:include fx:id="charts" source="ChartsView.fxml"/>
+                </Tab>
+                <Tab text="Debug" closable="false">
+                    <fx:include fx:id="debug" source="DebugView.fxml"/>
+                </Tab>
+                <Tab text="Log" closable="false">
+                    <fx:include fx:id="log" source="LogView.fxml"/>
+                </Tab>
+                <Tab text="CAN" closable="false">
+                    <fx:include fx:id="can" source="CanView.fxml"/>
+                </Tab>
+                <Tab text="RS232" closable="false">
+                    <fx:include fx:id="rs232" source="Rs232View.fxml"/>
+                </Tab>
+                <Tab text="Encoder" closable="false">
+                    <fx:include fx:id="encoder" source="EncoderView.fxml"/>
+                </Tab>
+                <Tab text="Tuning" closable="false">
+                    <fx:include fx:id="tuning" source="TuningView.fxml"/>
+                </Tab>
+            </TabPane>
+        </SplitPane>
+    </VBox>
+</AnchorPane>

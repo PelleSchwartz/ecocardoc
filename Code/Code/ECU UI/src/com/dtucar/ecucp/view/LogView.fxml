@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<BorderPane fx:id="log" prefHeight="600.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.dtucar.ecucp.controller.LogController">
+    <center>
+        <ListView fx:id="logText"/>
+    </center>
+    <bottom>
+        <HBox spacing="10.0">
+            <Button onAction="#onGet" text="Get"/>
+            <Button onAction="#onConfigure" text="Configure"/>
+            <Button onAction="#onSave" text="Save"/>
+            <Button onAction="#onReset" text="Reset"/>
+        </HBox>
+    </bottom>
+</BorderPane>

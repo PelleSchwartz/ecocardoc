@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.CheckBox?>
+<BorderPane fx:id="rs232" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.dtucar.ecucp.controller.Rs232Controller" prefHeight="600.0" prefWidth="1080.0">
+    <center>
+        <TextArea fx:id="rs232Text" editable="false"/>
+    </center>
+    <bottom>
+        <HBox spacing="10.0" alignment="CENTER_LEFT">
+            <Button onAction="#onGet" text="Get"/>
+            <Button onAction="#onSave" text="Save"/>
+            <Button onAction="#onReset" text="Reset"/>
+            <CheckBox fx:id="autoCheckbox" text="Auto-update"/>
+        </HBox>
+    </bottom>
+</BorderPane>

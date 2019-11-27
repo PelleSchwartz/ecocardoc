@@ -1,0 +1,2 @@
+bfg --delete-files ECU_UI_AppLog.txt
+(~150MB)

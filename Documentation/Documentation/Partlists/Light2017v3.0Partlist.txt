@@ -1,0 +1,90 @@
+Partlist
+
+Exported from Light2017.brd at 24/03/17 09:52
+
+EAGLE Version 7.7.0 Copyright (c) 1988-2016 CadSoft
+
+Assembly variant: 
+
+Part      Value                    Package                  Library                            Position (mm)         Orientation	Status (added by user)
+
+C-5V1     220uF                    PANASONIC_D              rcl                                (5.304 52.14)         R0			Checked
+C-5V2     4.7uF                    1210                     SparkFun-Passives                  (51 12)               R90		Checked
+C-5V3     100nF                    0805                     SparkFun-Passives                  (53.934 5.992)        R270		Checked
+C-12V     220uF                    PANASONIC_D              rcl                                (12 4.1)              R0			Checked
+C-12V1    220uF                    PANASONIC_D              rcl                                (83.3 52.14)          R180		Checked
+C-31      4.7uF                    1210                     SparkFun-Passives                  (53.74 40.708)        R0			Checked
+C-32      100nF                    0805                     SparkFun-Passives                  (48.575 40.8256)      R180		Checked
+C-CAN     100nF                    0805                     SparkFun-Passives                  (42.5238 35.039)      R180		Checked
+C-CANH    220pF                    0805                     SparkFun-Passives                  (48.5766 19.177)      R0			Checked
+C-CANL    220pF                    0805                     SparkFun-Passives                  (40.767 19.177)       R180		Checked
+C-IC3     100nF                    0805                     SparkFun-Passives                  (7.98 60.37)          R180		Checked
+C-IC4     4.7uF                    1210                     SparkFun-Passives                  (11.786 58.874)       R270		Checked
+CI1       100nF                    0805                     SparkFun-Passives                  (4.372 41.424)        R180		Checked
+CI2       100nF                    0805                     SparkFun-Passives                  (83.84 41.424)        R0			Checked
+D-P       ES1B                     SMA-DIODE                SparkFun-DiscreteSemi              (18.768 3.946)        R270		Checked
+ESDCAN    PESD1CAN                 SOT23-3                  SparkFun-DiscreteSemi              (44.704 16.764)       R180		Checked
+IN1                                43045-0200               con-molex-micro-fit-3_0            (4.572 33.782)        R270		Ordered
+IN2                                43045-0200               con-molex-micro-fit-3_0            (83.312 33.782)       R90		Ordered
+LED-F     RED                      LED-1206                 SparkFun-LED                       (52.524 2.366)        R0			Checked
+MA1       MOSFETDRIVER             SO8                      Roadrunners                        (30 14)               R270		Ordered
+MA1P                               SOT23-BEC                transistor                         (27.5 21)             R180		Ordered
+MA2       MOSFETDRIVER             SO8                      Roadrunners                        (57.5 29)             R270		Ordered
+MA2P                               SOT23-BEC                transistor                         (55 36)               R180		Ordered
+MA3       MOSFETDRIVER             SO8                      Roadrunners                        (30 29)               R270		Ordered
+MA3P                               SOT23-BEC                transistor                         (27.5 36)             R180		Ordered
+MA4       MOSFETDRIVER             SO8                      Roadrunners                        (57.5 14)             R270		Ordered
+MA4P                               SOT23-BEC                transistor                         (55 21)               R180		Ordered
+MAIN_FUSE SMF_OMNI-BLOK_FUSE_BLOCK SMF_OMNI-BLOK_FUSE_BLOCK SMF_OMNI-BLOK_FUSE_BLOCK           (29.41 3.064)         R0			Ordered
+MB1       MOSFETDRIVER             SO8                      Roadrunners                        (19.5 14)             R270		Ordered
+MB1P                               SOT23-BEC                transistor                         (17 21)               R180		Ordered
+MB2       MOSFETDRIVER             SO8                      Roadrunners                        (69 29)               R270		Ordered
+MB2P                               SOT23-BEC                transistor                         (66.5 36)             R180		Ordered
+MB3       MOSFETDRIVER             SO8                      Roadrunners                        (19.5 29)             R270		Ordered
+MB3P                               SOT23-BEC                transistor                         (17 36)               R180		Ordered
+MB4       MOSFETDRIVER             SO8                      Roadrunners                        (69 14)               R270		Ordered
+MB4P                               SOT23-BEC                transistor                         (66.5 21)             R180		Ordered
+MCP2551   MCP2551                  SO-08M                   skpang_lib                         (44.774 25.904)       R180		Ordered
+NCANRX    BSS138                   SOT23                    SparkFun-DiscreteSemi              (37.924 30.9372)      R180		Ordered
+NCANTX    BSS138                   SOT23                    SparkFun-DiscreteSemi              (50.064 30.9372)      R180		Ordered
+OUT1                               43045-0400               con-molex-micro-fit-3_0            (4.572 13.97)         R270		Ordered
+OUT2                               43045-0400               con-molex-micro-fit-3_0            (83.312 24.638)       R90		Ordered
+OUT3                               43045-0400               con-molex-micro-fit-3_0            (4.572 24.638)        R270		Ordered
+OUT4                               43045-0400               con-molex-micro-fit-3_0            (83.312 13.97)        R90		Ordered
+P_D                                43045-0400               con-molex-micro-fit-3_0            (43.942 4.826)        R0			Ordered
+R-CANH    100                      0805                     SparkFun-Resistors                 (48.592 16.51)        R180		Checked
+R-CANL    100                      0805                     SparkFun-Resistors                 (40.767 16.51)        R0			Checked
+R-L       330                      0805                     SparkFun-Resistors                 (76.8 58.8)           R90		Checked
+R-LF      1.2k                     0805                     SparkFun-Resistors                 (51.164 5.99)         R90		Checked
+R-T1H     10k                      0805                     SparkFun-Resistors                 (46.722 34.16)        R90		Checked
+R-T1L     10k                      0805                     SparkFun-Resistors                 (50.012 34.924)       R0			Checked
+R-T2H     10k                      0805                     SparkFun-Resistors                 (42.418 32.766)       R0			Checked
+R-T2L     10k                      0805                     SparkFun-Resistors                 (37.978 34.77)        R0			Checked
+R-TCD     4.7k                     0805                     SparkFun-Resistors                 (50.572 22.148)       R180		Checked
+R1A       47k                      0805                     SparkFun-Resistors                 (24.9 19.5)           R180		Checked
+R1B       47k                      0805                     SparkFun-Resistors                 (21.2 19.5)           R0			Checked
+R2A       47k                      0805                     SparkFun-Resistors                 (60 34.5)             R0			Checked
+R2B       47k                      0805                     SparkFun-Resistors                 (64 34.5)             R180		Checked
+R3A       47k                      0805                     SparkFun-Resistors                 (24.9 34.6)           R180		Checked
+R3B       47k                      0805                     SparkFun-Resistors                 (21.2 34.6)           R0			Checked
+R4A       47k                      0805                     SparkFun-Resistors                 (60 19.5)             R0			Checked
+R4B       47k                      0805                     SparkFun-Resistors                 (63.5 19.5)           R180		Checked
+R5S0      1k                       0805                     SparkFun-Resistors                 (63.252 8.894)        R180		Checked
+R5S1      470                      0805                     SparkFun-Resistors                 (63.248 11.136)       R0			Checked
+RI1       10k                      0805                     SparkFun-Resistors                 (6.172 38.9)          R0			Checked
+RI1D      4.7k                     0805                     SparkFun-Resistors                 (4.392 43.75)         R0			Checked
+RI2       10k                      0805                     SparkFun-Resistors                 (82.04 38.9)          R180		Checked
+RI2D      4.7k                     0805                     SparkFun-Resistors                 (83.84 43.75)         R180		Checked
+RPA1      1.5k                     0805                     SparkFun-Resistors                 (32.5 22.5)           R180		Checked		
+RPA2      1.5k                     0805                     SparkFun-Resistors                 (60 37.5)             R180		Checked
+RPA3      1.5k                     0805                     SparkFun-Resistors                 (32.5 37.5)           R180		Checked
+RPA4      1.5k                     0805                     SparkFun-Resistors                 (60 22.5)             R180		Checked
+RPB1      1.5k                     0805                     SparkFun-Resistors                 (22 22.5)             R180		Checked
+RPB2      1.5k                     0805                     SparkFun-Resistors                 (71.5 37.5)           R180		Checked
+RPB3      1.5k                     0805                     SparkFun-Resistors                 (22 37.5)             R180		Checked
+RPB4      1.5k                     0805                     SparkFun-Resistors                 (71.5 22.5)           R180		Checked
+TEENSY3.6 TEENSY_3.6_DIL           TEENSY_3.6_DIL           Teensy_3_and_LC_Series_Boards_v1.4 (42.926 52.07)        R90		Checked
+TLED      RED                      LED-1206                 SparkFun-LED                       (76.8 54.1)           R270		Checked
+U$1       AXA003A0XZ               SIP                      Austin-MiniLynx-DC-DC              (67.55 3.9)           R180		Checked
+ZI1       3.3                      SOD123                   diodes                             (4.3888 46.2546)      R180		Checked
+ZI2       3.3                      SOD123                   diodes                             (83.856 46.2546)      R0			Checked

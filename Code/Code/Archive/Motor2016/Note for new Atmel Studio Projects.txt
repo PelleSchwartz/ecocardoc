@@ -1,0 +1,6 @@
+When linking stuff, there is a bug.
+Once a file is linked, you need to open the .cproj project file and edit the <Link> entry to remove the First directory.
+Example:
+<Link>Motor2016Test\Includes\delay.h</Link>
+becomes
+<Link>Includes\delay.h</Link>

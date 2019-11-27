@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>7.0</ProjectVersion>
+    <ToolchainName>com.Atmel.AVRGCC8.C</ToolchainName>
+    <ProjectGuid>dce6c7e3-ee26-4d79-826b-08594b9ad897</ProjectGuid>
+    <avrdevice>ATmega1284P</avrdevice>
+    <avrdeviceseries>none</avrdeviceseries>
+    <OutputType>Executable</OutputType>
+    <Language>C</Language>
+    <OutputFileName>$(MSBuildProjectName)</OutputFileName>
+    <OutputFileExtension>.elf</OutputFileExtension>
+    <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
+    <AssemblyName>Steering</AssemblyName>
+    <Name>Steering</Name>
+    <RootNamespace>Steering</RootNamespace>
+    <ToolchainFlavour>Native</ToolchainFlavour>
+    <KeepTimersRunning>true</KeepTimersRunning>
+    <OverrideVtor>false</OverrideVtor>
+    <CacheFlash>true</CacheFlash>
+    <ProgFlashFromRam>true</ProgFlashFromRam>
+    <RamSnippetAddress />
+    <UncachedRange />
+    <preserveEEPROM>true</preserveEEPROM>
+    <OverrideVtorValue />
+    <BootSegment>2</BootSegment>
+    <eraseonlaunchrule>0</eraseonlaunchrule>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <ToolchainSettings>
+      <AvrGcc>
+        <avrgcc.common.Device>-mmcu=atmega1284p -B "%24(PackRepoDir)\atmel\ATmega_DFP\1.0.106\gcc\dev\atmega1284p"</avrgcc.common.Device>
+        <avrgcc.common.optimization.RelaxBranches>True</avrgcc.common.optimization.RelaxBranches>
+        <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
+        <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
+        <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
+        <avrgcc.common.outputfiles.srec>True</avrgcc.common.outputfiles.srec>
+        <avrgcc.common.outputfiles.usersignatures>False</avrgcc.common.outputfiles.usersignatures>
+        <avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>True</avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>
+        <avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>
+        <avrgcc.compiler.symbols.DefSymbols>
+          <ListValues>
+            <Value>NDEBUG</Value>
+          </ListValues>
+        </avrgcc.compiler.symbols.DefSymbols>
+        <avrgcc.compiler.directories.IncludePaths>
+          <ListValues>
+            <Value>%24(PackRepoDir)\atmel\ATmega_DFP\1.0.106\include</Value>
+          </ListValues>
+        </avrgcc.compiler.directories.IncludePaths>
+        <avrgcc.compiler.optimization.level>Optimize for size (-Os)</avrgcc.compiler.optimization.level>
+        <avrgcc.compiler.optimization.PackStructureMembers>True</avrgcc.compiler.optimization.PackStructureMembers>
+        <avrgcc.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcc.compiler.optimization.AllocateBytesNeededForEnum>
+        <avrgcc.compiler.warnings.AllWarnings>True</avrgcc.compiler.warnings.AllWarnings>
+        <avrgcc.linker.libraries.Libraries>
+          <ListValues>
+            <Value>libm</Value>
+          </ListValues>
+        </avrgcc.linker.libraries.Libraries>
+        <avrgcc.assembler.general.IncludePaths>
+          <ListValues>
+            <Value>%24(PackRepoDir)\atmel\ATmega_DFP\1.0.106\include</Value>
+          </ListValues>
+        </avrgcc.assembler.general.IncludePaths>
+      </AvrGcc>
+    </ToolchainSettings>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <ToolchainSettings>
+      <AvrGcc>
+        <avrgcc.common.Device>-mmcu=atmega1284p -B "%24(PackRepoDir)\atmel\ATmega_DFP\1.0.106\gcc\dev\atmega1284p"</avrgcc.common.Device>
+        <avrgcc.common.optimization.RelaxBranches>True</avrgcc.common.optimization.RelaxBranches>
+        <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
+        <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
+        <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
+        <avrgcc.common.outputfiles.srec>True</avrgcc.common.outputfiles.srec>
+        <avrgcc.common.outputfiles.usersignatures>False</avrgcc.common.outputfiles.usersignatures>
+        <avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>True</avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>
+        <avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>
+        <avrgcc.compiler.symbols.DefSymbols>
+          <ListValues>
+            <Value>DEBUG</Value>
+          </ListValues>
+        </avrgcc.compiler.symbols.DefSymbols>
+        <avrgcc.compiler.directories.IncludePaths>
+          <ListValues>
+            <Value>../Constants</Value>
+            <Value>../../../Shared</Value>
+            <Value>../Includes</Value>
+            <Value>%24(PackRepoDir)\atmel\ATmega_DFP\1.0.106\include</Value>
+          </ListValues>
+        </avrgcc.compiler.directories.IncludePaths>
+        <avrgcc.compiler.optimization.level>Optimize (-O1)</avrgcc.compiler.optimization.level>
+        <avrgcc.compiler.optimization.PackStructureMembers>True</avrgcc.compiler.optimization.PackStructureMembers>
+        <avrgcc.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcc.compiler.optimization.AllocateBytesNeededForEnum>
+        <avrgcc.compiler.optimization.DebugLevel>Default (-g2)</avrgcc.compiler.optimization.DebugLevel>
+        <avrgcc.compiler.warnings.AllWarnings>True</avrgcc.compiler.warnings.AllWarnings>
+        <avrgcc.linker.libraries.Libraries>
+          <ListValues>
+            <Value>libm</Value>
+          </ListValues>
+        </avrgcc.linker.libraries.Libraries>
+        <avrgcc.assembler.general.IncludePaths>
+          <ListValues>
+            <Value>%24(PackRepoDir)\atmel\ATmega_DFP\1.0.106\include</Value>
+          </ListValues>
+        </avrgcc.assembler.general.IncludePaths>
+        <avrgcc.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcc.assembler.debugging.DebugLevel>
+      </AvrGcc>
+    </ToolchainSettings>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\..\Shared\delay.c">
+      <SubType>compile</SubType>
+      <Link>Includes\delay.c</Link>
+    </Compile>
+    <Compile Include="..\..\Shared\delay.h">
+      <SubType>compile</SubType>
+      <Link>Includes\delay.h</Link>
+    </Compile>
+    <Compile Include="..\..\Shared\rs485protocol.h">
+      <SubType>compile</SubType>
+      <Link>Includes\rs485protocol.h</Link>
+    </Compile>
+    <Compile Include="..\..\Shared\rs485validation.c">
+      <SubType>compile</SubType>
+      <Link>Includes\rs485validation.c</Link>
+    </Compile>
+    <Compile Include="..\..\Shared\rs485validation.h">
+      <SubType>compile</SubType>
+      <Link>Includes\rs485validation.h</Link>
+    </Compile>
+    <Compile Include="..\..\Shared\SuperGlobalConstants.h">
+      <SubType>compile</SubType>
+      <Link>Includes\SuperGlobalConstants.h</Link>
+    </Compile>
+    <Compile Include="..\..\Shared\timer.c">
+      <SubType>compile</SubType>
+      <Link>Includes\timer.c</Link>
+    </Compile>
+    <Compile Include="..\..\Shared\timer.h">
+      <SubType>compile</SubType>
+      <Link>Includes\timer.h</Link>
+    </Compile>
+    <Compile Include="..\..\Shared\uart.h">
+      <SubType>compile</SubType>
+      <Link>Includes\uart.h</Link>
+    </Compile>
+    <Compile Include="Constants\BIG_NUMBERS.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Constants\BIG_NUMBERS.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Constants\LOGOS.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Constants\LOGOS.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Includes\buttons.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Includes\buttons.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Includes\DOGXL-160-7.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Includes\DOGXL-160-7.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Includes\global.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Includes\global.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Includes\inout.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Includes\inout.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Includes\lcd.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Includes\lcd.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Includes\rgb.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Includes\rgb.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Includes\rs485.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Includes\rs485.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Includes\rs485sync.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Includes\rs485sync.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Includes\spi.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Includes\spi.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Includes\uart.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="main.c">
+      <SubType>compile</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Includes" />
+    <Folder Include="Constants" />
+  </ItemGroup>
+  <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
+</Project>

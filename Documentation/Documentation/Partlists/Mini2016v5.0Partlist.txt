@@ -1,0 +1,49 @@
+Partlist
+
+Exported from Mini2016.brd at 19/04/2016 13:08
+
+EAGLE Version 7.5.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part             Value                    Package                  Library                  Position (inch)       Orientation
+
+3003-D           ZXGD3003E6SOT            SOT23-6                  Custom2                  (1.25 0.19)           R90
+3003-T           ZXGD3003E6SOT            SOT23-6                  Custom2                  (1.23 1.04)           R0
+C-D              100pF                    0805                     SparkFun-Capacitors      (1.18 0.36)           R90
+C-T              100pF                    0805                     SparkFun-Capacitors      (1.38 1.11)           R90
+C-TVS            47nF                     C1812                    rcl                      (1.53940945 -0.28133858) R270
+CI1              100nF                    0805                     SparkFun-Capacitors      (1.13 2.17)           R0
+CI2              820uF                    CAP-PTH-5MM              SparkFun-Capacitors      (1.28 1.96)           R0
+CR1              1uF                      0805                     SparkFun-Capacitors      (1.16 -0.08)          R180
+CR2              820uF                    CAP-PTH-5MM              SparkFun-Capacitors      (1.72 1.96)           R0
+CR3              820uF                    CAP-PTH-5MM              SparkFun-Capacitors      (1.72 1.54)           R0
+CR4              820uF                    CAP-PTH-5MM              SparkFun-Capacitors      (1.28 1.54)           R0
+D-D                                       SMA-DIODE                SparkFun-DiscreteSemi    (1.15 0.58)           R270
+D-P              ES1B                     SMA-DIODE                SparkFun-DiscreteSemi    (0.95 2.35)           R270
+D-TVS            TVS                      SMC                      SparkFun-DiscreteSemi    (1.81 -0.32)          R90
+DOUTLED          GREEN                    LED-1206                 SparkFun-LED             (0.3865 -0.419)       R0
+DYSEOUT                                   43045-0200               con-molex-micro-fit-3_0  (0.68 -0.37)          R0
+JP               JUMPER-3PTH              1X03                     SparkFun-Passives        (1.14 1.26)           R0
+PWRIN                                     43045-0200               con-molex-micro-fit-3_0  (0.68 2.56)           R180
+PWRLED           RED                      LED-1206                 SparkFun-LED             (0.98 2.58)           R180
+Q-D              MOSFET-NCHANNELFQP30N06L TO220V                   SparkFun-DiscreteSemi    (1.37 0.62)           R90
+Q-T              IRF740_W/HEATSINK        HEATSINK_SK104           IRF740-wHeatsink         (1.69 0.62)           R270
+Q-TL             BSS138                   SOT23                    SparkFun-DiscreteSemi    (1.56 2.36)           R180
+R-DBT            820                      0805                     SparkFun-Resistors       (0.37 0.02)           R0
+R-DL             1.2k                     0805                     SparkFun-Resistors       (0.35 -0.29)          R180
+R-DPD            9.1k                     0805                     SparkFun-Resistors       (0.5 -0.01)           R270
+R-DSI            11                       0805                     SparkFun-Resistors       (1.35 0.04)           R0
+R-DSR            11                       0805                     SparkFun-Resistors       (1.36 0.33)           R0
+R-PL             1.2k                     0805                     SparkFun-Resistors       (1.08 2.47)           R90
+R-QT             10k                      0805                     SparkFun-Resistors       (1.55 2.51)           R0
+R-TL             820                      0805                     SparkFun-Resistors       (1.16 2.27)           R0
+R-TPD            9.1k                     0805                     SparkFun-Resistors       (1.11 1.05)           R90
+R-TSI            1k                       0805                     SparkFun-Resistors       (1.22 0.88)           R0
+R-TSR            1k                       0805                     SparkFun-Resistors       (1.38 0.95)           R270
+RIOIN                                     43045-0200               con-molex-micro-fit-3_0  (1.28 2.56)           R180
+S1               TACT-SWITCH-ANGLED       SKHHL*                   TACT-Switch-Angled       (0.11 -0.08)          R270
+TINLED           GREEN                    LED-1206                 SparkFun-LED             (1.54 2.23)           R0
+TRACO-TEN30-1212 TEN30-1212TEN30          TRACO-TEN30              TracoTEN30-1212          (0.24 2.05)           R0
+TÆNDOUT                                   43045-0200               con-molex-micro-fit-3_0  (1.28 -0.37)          R0
+U$1              SMF_OMNI-BLOK_FUSE_BLOCK SMF_OMNI-BLOK_FUSE_BLOCK SMF_OMNI-BLOK_FUSE_BLOCK (0.26 2.315)          R180

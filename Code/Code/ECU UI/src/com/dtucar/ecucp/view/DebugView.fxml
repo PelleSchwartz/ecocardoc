@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane fx:id="debug" stylesheets="@AppTheme.css" prefHeight="600.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.dtucar.ecucp.controller.DebugController">
+    <center>
+        <TextArea fx:id="debugText" editable="false"/>
+    </center>
+    <bottom>
+        <HBox spacing="10.0">
+        <TextField onAction="#onTextField" fx:id="debugTextField" HBox.hgrow="ALWAYS"/>
+        <Button onAction="#onSend" text="Send"/>
+        <Button onAction="#onClear" alignment="CENTER_RIGHT" text="Clear"/>
+        </HBox>
+    </bottom>
+</BorderPane>

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Motor2016Innovator", "Motor2016Innovator\Motor2016Innovator.cproj", "{DCE6C7E3-EE26-4D79-826B-08594B9AD897}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Motor2016Dynamo", "Motor2016Dynamo\Motor2016Dynamo.cproj", "{875DBCAF-95D0-46E9-BC18-A56ECBEFA678}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Motor2016Test", "Motor2016Test\Motor2016Test.cproj", "{E72432DB-00B0-452E-8BB1-8320731C8F13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.ActiveCfg = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.Build.0 = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.ActiveCfg = Release|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.Build.0 = Release|AVR
+		{875DBCAF-95D0-46E9-BC18-A56ECBEFA678}.Debug|AVR.ActiveCfg = Debug|AVR
+		{875DBCAF-95D0-46E9-BC18-A56ECBEFA678}.Debug|AVR.Build.0 = Debug|AVR
+		{875DBCAF-95D0-46E9-BC18-A56ECBEFA678}.Release|AVR.ActiveCfg = Release|AVR
+		{875DBCAF-95D0-46E9-BC18-A56ECBEFA678}.Release|AVR.Build.0 = Release|AVR
+		{E72432DB-00B0-452E-8BB1-8320731C8F13}.Debug|AVR.ActiveCfg = Debug|AVR
+		{E72432DB-00B0-452E-8BB1-8320731C8F13}.Debug|AVR.Build.0 = Debug|AVR
+		{E72432DB-00B0-452E-8BB1-8320731C8F13}.Release|AVR.ActiveCfg = Release|AVR
+		{E72432DB-00B0-452E-8BB1-8320731C8F13}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

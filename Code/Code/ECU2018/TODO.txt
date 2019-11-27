@@ -1,0 +1,8 @@
+Check:
+
+Need to:
+- Check Ignition behavior when turning off
+
+Nice to:
+- Make new log file on button (and update UI to handle multiple files)
+- Look at overrides for burning and idle in ecu.cpp (rewrite)

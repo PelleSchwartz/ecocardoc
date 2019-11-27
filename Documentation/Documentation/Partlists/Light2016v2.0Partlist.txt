@@ -1,0 +1,94 @@
+Partlist
+
+Exported from Light2016.brd at 19/04/2016 13:07
+
+EAGLE Version 7.5.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part         Value                    Package                  Library                    Position (mm)         Orientation
+
+75176AD      75176AD                  D_R-PDSO-G8              751xx                      (33.75 39)            R270
+BURNER       6P                       2X3_POGO                 SparkFun-Connectors        (40.9 58.65)          R180
+C-5V1        220uF                    PANASONIC_D              rcl                        (13.5 56.75)          R270
+C-5V2        220uF                    PANASONIC_D              rcl                        (52.5 4.25)           R90
+C-5V3        100nF                    0805                     SparkFun-Passives          (9.25 52.25)          R180
+C-IC1        220pF                    0805                     SparkFun-Passives          (55.5 33.5)           R0
+C-IC2        100nF                    0805                     SparkFun-Passives          (54.25 27)            R270
+C-R          100nF                    0805                     SparkFun-Passives          (32.75 55.75)         R90
+C1           18pF                     0805                     SparkFun-Capacitors        (37.5 21.75)          R0
+C2           18pF                     0805                     SparkFun-Capacitors        (34.25 25.25)         R90
+C485         0.01uF                   0805                     SparkFun-Passives          (35.25 43.75)         R90
+CB           100nF                    0805                     SparkFun-Passives          (58.25 57)            R90
+CL0          NC                       0805                     SparkFun-Passives          (16.75 22.25)         MR0
+CRYSTAL      QC25-16.000              C25                      QC25-Crystal               (37.5 25.75)          R270
+D-P          ES1B                     SMA-DIODE                SparkFun-DiscreteSemi      (28.75 6)             R270
+JL0          0R-JUMPA                 A0R-JMP                  jump-0r-smd                (28.25 21.75)         MR180
+JL2          0R-JUMPA                 A0R-JMP                  jump-0r-smd                (35 33.75)            R90
+JL13         0R-JUMPA                 A0R-JMP                  jump-0r-smd                (57.5 48.75)          R180
+JW           0R-JUMPA                 A0R-JMP                  jump-0r-smd                (23.5 5.25)           R180
+L-IC         10uH                     0805                     SparkFun-Passives          (55.5 30.75)          R90
+LED-F        RED                      LED-1206                 SparkFun-LED               (29.75 55.5)          R90
+LED0-X+1                              43045-0400               con-molex-micro-fit-3_0    (4.5 23.75)           R270
+LED2+3                                43045-0400               con-molex-micro-fit-3_0    (4.5 34.5)            R270
+LED4+5                                43045-0400               con-molex-micro-fit-3_0    (4.5 45.25)           R270
+LED6+7                                43045-0400               con-molex-micro-fit-3_0    (83.25 34.3)          R90
+LED8+9                                43045-0400               con-molex-micro-fit-3_0    (83.25 23.55)         R90
+LED10+11-FAN                          43045-0400               con-molex-micro-fit-3_0    (83.25 12.8)          R90
+LED12-HORN                            43045-0200               con-molex-micro-fit-3_0    (83.25 51.25)         R90
+LED13-BRAKE                           43045-0200               con-molex-micro-fit-3_0    (83.25 43.5)          R90
+LED14-WIPER                           43045-0400               con-molex-micro-fit-3_0    (4.5 12.95)           R270
+MAIN_FUSE    SMF_OMNI-BLOK_FUSE_BLOCK SMF_OMNI-BLOK_FUSE_BLOCK SMF_OMNI-BLOK_FUSE_BLOCK   (34.6 6.55)           R90
+MCU          ATMEGA328P_PDIP          DIL28-3                  SparkFun-DigitalIC         (47.5 33.25)          R270
+P_D                                   43045-0400               con-molex-micro-fit-3_0    (44 4.75)             R0
+QL0          NMOSFET                  DPAK                     SparkFun-DiscreteSemi      (25.25 22.25)         R0
+QL1          NMOSFET                  DPAK                     SparkFun-DiscreteSemi      (17.75 22.25)         R0
+QL2          NMOSFET                  DPAK                     SparkFun-DiscreteSemi      (25 34.75)            R0
+QL3          NMOSFET                  DPAK                     SparkFun-DiscreteSemi      (17.5 34.75)          R0
+QL4          NMOSFET                  DPAK                     SparkFun-DiscreteSemi      (25 47.25)            R0
+QL5          NMOSFET                  DPAK                     SparkFun-DiscreteSemi      (17.5 47.25)          R0
+QL6          NMOSFET                  DPAK                     SparkFun-DiscreteSemi      (69.75 40.75)         R0
+QL7          NMOSFET                  DPAK                     SparkFun-DiscreteSemi      (62.25 40.75)         R0
+QL8          NMOSFET                  DPAK                     SparkFun-DiscreteSemi      (70 28.25)            R0
+QL9          NMOSFET                  DPAK                     SparkFun-DiscreteSemi      (62.5 28.25)          R0
+QL10         NMOSFET                  DPAK                     SparkFun-DiscreteSemi      (70.25 15.75)         R0
+QL11         NMOSFET                  DPAK                     SparkFun-DiscreteSemi      (62.75 15.75)         R0
+QL12         NMOSFET                  DPAK                     SparkFun-DiscreteSemi      (69.75 53.25)         R0
+QL13         NMOSFET                  DPAK                     SparkFun-DiscreteSemi      (62.25 53.25)         R0
+QL14         NMOSFET                  DPAK                     SparkFun-DiscreteSemi      (18.75 9.75)          R0
+R-LF         1.2k                     0805                     SparkFun-Resistors         (32 52.25)            R0
+R-R1         1k                       0805                     SparkFun-Resistors         (42.5 53)             R0
+R-R2         220                      0805                     SparkFun-Resistors         (18 57)               R90
+R5S0         1k                       0805                     SparkFun-Resistors         (58 11)               R270
+R5S1         470                      0805                     SparkFun-Resistors         (55 11)               R90
+R485-1       47                       0805                     SparkFun-Resistors         (30.5 22.25)          R270
+R485-2       47                       0805                     SparkFun-Resistors         (32.5 18.5)           R270
+R485-3       120                      0805                     SparkFun-Resistors         (31.5 29.75)          R180
+RB1          10k/0                    0805                     SparkFun-Resistors         (75.5 48.5)           R0
+RB2          5k/NC                    0805                     SparkFun-Resistors         (55.25 54.75)         R0
+RDPD         1k                       0805                     SparkFun-Resistors         (30.25 35.25)         R180
+RESET                                 TACTILE-PTH              SparkFun-Electromechanical (23.45 57)            R180
+RL0          47k                      0805                     SparkFun-Resistors         (23.5 14)             R180
+RL0D         NC                       0805                     SparkFun-Resistors         (15.5 24.75)          MR180
+RL0X         0                        0805                     SparkFun-Resistors         (16.75 19.75)         MR0
+RL1          47k                      0805                     SparkFun-Resistors         (39.75 19.25)         R0
+RL2          47k                      0805                     SparkFun-Resistors         (37.5 31.25)          R180
+RL3          47k                      0805                     SparkFun-Resistors         (40.75 23)            R90
+RL4          47k                      0805                     SparkFun-Resistors         (38.75 44.75)         R0
+RL5          47k                      0805                     SparkFun-Resistors         (38.75 42.5)          R0
+RL6          47k                      0805                     SparkFun-Resistors         (75.5 46)             R180
+RL7          47k                      0805                     SparkFun-Resistors         (75.75 38.25)         R180
+RL8          47k                      0805                     SparkFun-Resistors         (57.75 28)            R90
+RL9          47k                      0805                     SparkFun-Resistors         (57.25 22)            R0
+RL10         47k                      0805                     SparkFun-Resistors         (55 19.25)            R180
+RL11         47k                      0805                     SparkFun-Resistors         (58.25 14.25)         R270
+RL12         47k                      0805                     SparkFun-Resistors         (57 43)               R180
+RL13         47k                      0805                     SparkFun-Resistors         (55 47)               R0
+RL14         47k                      0805                     SparkFun-Resistors         (26.25 1.75)          R180
+RPD          4.7k                     0805                     SparkFun-Resistors         (35 18.5)             R90
+RPDRX        1k                       0805                     SparkFun-Resistors         (40.75 49.75)         R270
+RPDTX        1k                       0805                     SparkFun-Resistors         (38.75 47)            R0
+RPU          4.7k                     0805                     SparkFun-Resistors         (30.75 32.75)         R90
+U$1          AXA003A0XZ               SIP                      Austin-MiniLynx-DC-DC      (67.45 4.4)           R0
+ZB           5.6                      SOD123                   diodes                     (54 52.5)             R180
+ZL0          NC                       SOD123                   diodes                     (22.5 22.25)          MR180

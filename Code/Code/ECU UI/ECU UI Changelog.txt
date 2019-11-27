@@ -1,0 +1,33 @@
+Version 1.0.4 2018-07-17 16:25
+- Added party song and easter egg
+- Elaborated on configuration tooltips and set max width
+- Added tooltip to fuel correction slider
+- Added tooltips to LUT table
+
+Version 1.0.3 2018-07-04 20:44
+- Test log default values now -1 (instead of 0)
+- Test button starts with "Choose folder" before "Start test"
+
+Version 1.0.2 2018-07-03 01:45
+- Lambda charts now have legends
+- Clicking the legends in lambda charts toggles the series visibility
+- Changed style for gear 2 to a blue cross
+- Added splash screen
+- Increased update rate significantly (now at 10 ms sync period)
+- Fixed incorrect config value indication (white instead of green) when switching away and back to the config tab
+- Lambda chart is now only chart shown by default in Test
+
+Version 1.0.1 2018-07-03 21:45
+- UI starts maximized
+- Configuration has reset from fuel correction function
+- Configuration table requests focus on show, Emergency state indication fixed
+- Connection box updates on connection loss, Escape key acts as STOP button
+- A config file gets saved together with the test log
+- Possibly fixed an issue where test could get stuck in a start-stop loop
+- All test values and test log values are only updated while test is running
+- Lambda chart in Test now uses full available height
+- Fixed issue when loading a config file with an invalid test log directory
+
+Version 1.0.0 2018-03-07 13:51
+- Release
+(For previous versions, see ecocar.git commit history)

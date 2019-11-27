@@ -1,0 +1,100 @@
+Tjek hvordan jeg ordner analoge signaler. Se afsnit 25 i processor document.(side 265)
+
+Header filen der definerer alle disse ting, kan laves ud fra afsnit 33. Register Summary.
+Addresser i paranteser tilgår med _SFR_MEM8(adresse), adresser uden for paranteser
+tilgås med SFR_IO8(adresse). 8 er antal bits og kan ændres.
+
+---Port a---
+un
+kfrs out
+horn
+datadir485 (AD3)
+starter
+X-GPIO 0
+X-GPIO 1
+un
+
+---port b---
+un
+SCK
+MOST
+MISO
+un
+un
+un
+un
+
+---port c---
+led 3
+led 4
+un
+un
+un
+un
+un
+un
+
+---port d---
+un
+un
+RX485	(RXD1)
+TX485	(TXD1)
+un
+un
+led 5
+led 6
+
+---port e---
+un
+un
+un
+Extrapwm1
+Extrapwm2
+Extrapwm3
+un
+un
+
+---port f---
+gfar sensor		  (analog ADC 0)
+brake			  (analog ADC 1)
+wheel			  (analog ADC 2)
+lambdasensor	  (analog ADC 3)
+batterysensor	  (analog ADC 4)
+kfrs sensor		  (analog ADC 5)
+oil temp		  (analog ADC 6)
+h2o temp		  (analog ADC 7)
+
+---port g---
+all unused
+
+---port h---
+RX232-A		(RXD2)
+TX232-A		(TXD2)
+un
+gear servo	(OC4A)
+un
+extra servo	(OC2B)
+
+---port j---
+RX232-B		(RXD3)
+TX232-B		(TXD3)
+rest unused
+
+---port k---
+X-ADC0 (ADC8)
+X-ADC1 (ADC9)
+X-ADC3 (ADC10)
+X-ADC4 (ADC11)
+X-ADC5 (ADC12)
+SPJLD
+FLOW
+
+---port l---
+un
+un
+un
+speed servo (OC5A)
+un
+un
+led 2
+led 1

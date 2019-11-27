@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.dtucar.ecucp.view.ConfigTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.layout.HBox?>
+<GridPane fx:id="test" hgap="10" prefHeight="900.0" prefWidth="1080.0" stylesheets="@AppTheme.css" vgap="10" xmlns="http://javafx.com/javafx/"
+          xmlns:fx="http://javafx.com/fxml" fx:controller="com.dtucar.ecucp.controller.Tuning_Controller">
+    <padding>
+        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+    </padding>
+    <rowConstraints>
+        <RowConstraints minHeight="100.0" vgrow="ALWAYS"/>
+        <RowConstraints minHeight="100.0" prefHeight="300.0" vgrow="ALWAYS"/>
+        <RowConstraints minHeight="100.0" prefHeight="300.0" vgrow="ALWAYS"/>
+    </rowConstraints>
+    <columnConstraints>
+        <ColumnConstraints hgrow="ALWAYS"/>
+    </columnConstraints>
+    <VBox GridPane.rowSpan="2">
+        <TitledPane text="Speed and fuel over distance" VBox.vgrow="ALWAYS" expanded="false">
+            <HBox fx:id="speedAndFuelBox">
+                <!-- Speed chart and fuel chart are added here by the Controller -->
+            </HBox>
+        </TitledPane>
+        <TitledPane fx:id="lambdaPane" text="Lambda over RPM" VBox.vgrow="ALWAYS">
+            <!-- The Lambda/RPM chart is added here by the Controller -->
+        </TitledPane>
+    </VBox>
+    <GridPane hgap="20" vgap="10" GridPane.columnIndex="0" GridPane.rowIndex="2">
+        <columnConstraints>
+            <ColumnConstraints hgrow="ALWAYS"/>
+            <ColumnConstraints hgrow="ALWAYS"/>
+            <ColumnConstraints hgrow="ALWAYS"/>
+            <ColumnConstraints hgrow="ALWAYS"/>
+            <ColumnConstraints hgrow="ALWAYS"/>
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints/>
+            <RowConstraints/>
+        </rowConstraints>
+        <VBox alignment="CENTER" spacing="10.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="0" GridPane.rowSpan="2">
+            <!-- The testButton starts with "Choose folder" and changes to "Start test"/"Stop test" afterwards through the Controller -->
+            <ToggleButton fx:id="tuningButton" minHeight="50.0" onAction="#tuningButtonPressed" text="Choose folder"/>
+            <Text text="Test duration [mm:ss]"/>
+            <TextField fx:id="durationText" alignment="CENTER" editable="false" focusTraversable="false" maxWidth="150.0"/>
+        </VBox>
+        <VBox alignment="CENTER_LEFT" spacing="5.0" GridPane.columnIndex="4" GridPane.rowIndex="0" GridPane.rowSpan="2">
+            <Text text="Speed [km/h]"/>
+            <TextField fx:id="speedText" editable="false" maxWidth="150.0" focusTraversable="false"/>
+            <Text text="Fuel consumption [km/l]"/>
+            <TextField fx:id="fuelConsumptionText" editable="false" maxWidth="150.0" focusTraversable="false"/>
+            <Text text="Gear"/>
+            <TextField fx:id="gearText" editable="false" maxWidth="150.0" focusTraversable="false"/>
+            <Text text="State"/>
+            <TextField fx:id="stateText" editable="false" maxWidth="150.0" focusTraversable="false"/>
+        </VBox>
+    </GridPane>
+</GridPane>

@@ -1,0 +1,33 @@
+Partlist
+
+Exported from USB UART Friend.brd at 19/04/2016 13:09
+
+EAGLE Version 7.5.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part     Value           Package                 Library                    Position (inch)       Orientation
+
+CU1      100nF           0805                    SparkFun-Passives          (0.735 0.975)         R90
+CU2      47pF            0805                    SparkFun-Passives          (0.715 0.775)         MR90
+CU3      47pF            0805                    SparkFun-Passives          (0.275 0.28)          R180
+CU4      4.7nF           0805                    SparkFun-Passives          (0.135 0.28)          R180
+CU5      100nF           0805                    SparkFun-Passives          (0.41 1.065)          R180
+CU6      100nF           0805                    SparkFun-Passives          (0.15 1.025)          R0
+CU7      4.7uF           0805                    SparkFun-Passives          (0.095 0.21)          R180
+IC1      FT230XS         SSOP16                  ftdichip                   (0.73 0.675)          R90
+JP1      JUMPER          1X08_ROUND_76           microbuilder               (0.42 0.1)            R180
+LEDRX    RED             LED-1206                SparkFun-LED               (0.645 0.96)          R270
+LEDTX    RED             LED-1206                SparkFun-LED               (0.78 0.26)           R90
+RJ       0               0805                    SparkFun-Resistors         (0.57 0.24)           MR270
+RLRX     510             0805                    SparkFun-Resistors         (0.545 1.07)          R270
+RLTX     510             0805                    SparkFun-Resistors         (0.66 0.2)            R0
+RUSB1    27              0805                    SparkFun-Resistors         (0.8 0.915)           R270
+RUSB2    27              0805                    SparkFun-Resistors         (0.735 0.425)         MR270
+RUSB3    4.7k            0805                    SparkFun-Resistors         (0.41 1.135)          R180
+RUSB4    10k             0805                    SparkFun-Resistors         (0.41 1.205)          R0
+RUSB5    1M              0805                    SparkFun-Resistors         (0.135 0.35)          R0
+U$28     MOUNTINGHOLE2.5 MOUNTINGHOLE_2.5_PLATED microbuilder               (0.74 1.15)           R0
+U$29     MOUNTINGHOLE2.5 MOUNTINGHOLE_2.5_PLATED microbuilder               (0.1 1.15)            R0
+U-ESD    USBLC6-4        SOR23-6L                ST-ESD-Protection-USBLC6-4 (0.27 0.76)           MR0
+X1       A-USBSA         USB-A                   AssmannUSB                 (0.405 0.7)           R270

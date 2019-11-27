@@ -1,0 +1,21 @@
+Emergency Shutdown 37:g)
+which can only be re-activated by rotating it.
+-> Our switch does not rotate. However, by design, once the external emergency shutdown is 
+operated, it latches in a way where the engine can only be reactivated by performing a 
+full system reboot (power cycle).
+
+VEHICLE ELECTRICAL SYSTEMS 57:m)
+All teams are required to provide an on-board DC-to-DC power supply for the telemetry on-board
+computer sensor systems (see Article 70:). The input to the DC-to-DC converter shall be from the
+vehicle electrical system. The required DC-to-DC output characteristics are: isolated 12 V DC, <
++-5% output voltage regulation, and minimum 1 amp continuous current rating. The on-board
+computer power interface shall be through screw terminals of a separate terminal block suitable
+for an 18 AWG wire and be located in the engine compartment.
+
+57:i)
+The vehicle horn is required to be powered by a built-in battery.
+vs
+31:a)
+Horns powered by a built-in independent battery are permissible.
+
+Joulemeter

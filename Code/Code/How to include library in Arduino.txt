@@ -1,0 +1,26 @@
+Windows (Replace Henning with your username):
+mklink /J "C:\Users\Henning\Documents\Arduino\libraries\Adafruit_NeoPixel" "C:\Users\Henning\Source\Ecocar\Code\Adafruit_NeoPixel"
+mklink /J "C:\Users\Henning\Documents\Arduino\libraries\Adafruit_TFTLCD" "C:\Users\Henning\Source\Ecocar\Code\Adafruit_TFTLCD"
+mklink /J "C:\Users\Henning\Documents\Arduino\libraries\Adafruit_GFX" "C:\Users\Henning\Source\Ecocar\Code\Adafruit_GFX"
+mklink /J "C:\Users\Henning\Documents\Arduino\libraries\FlexCAN" "C:\Users\Henning\Source\Ecocar\Code\FlexCAN"
+mklink /J "C:\Users\Henning\Documents\Arduino\libraries\Adafruit_HX8357_Library" "C:\Users\Henning\Source\Ecocar\Code\Adafruit_HX8357_Library"
+mklink /J "C:\Users\Henning\Documents\Arduino\libraries\Canlib" "C:\Users\Henning\Source\Ecocar\Code\Canlib"
+mklink /J "C:\Users\Henning\Documents\Arduino\libraries\Tunes" "C:\Users\Henning\Source\Ecocar\Code\Tunes"
+mklink /J "C:\Users\Henning\Documents\Arduino\libraries\ArduinoJson" "C:\Users\Henning\Source\Ecocar\Code\ArduinoJson"
+mklink /J "C:\Users\Henning\Documents\Arduino\libraries\Light2018Shared" "C:\Users\Henning\Source\Ecocar\Code\Light2018\Light2018Shared"
+mklink /J "C:\Users\Henning\Documents\Arduino\libraries\Adafruit_MAX31856" "C:\Users\Henning\Source\Ecocar\Code\Adafruit_MAX31856"
+mklink /J "C:\Users\Henning\Documents\Arduino\libraries\SdFat" "C:\Users\Henning\Source\Ecocar\Code\SdFat"
+
+OSX/Linux:
+ln -s /Users/username/ecocar/code/desiredLib /Users/Eske/documents/arduino/libraries
+
+Important for coding the ECU, removing startup delay:
+delete/comment out the delays in the file "C:\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\pins_teensy.c" around line 586:
+
+	analog_init();
+	// for background about this startup delay, please see these conversations
+	// https://forum.pjrc.com/threads/36606-startup-time-(400ms)?p=113980&viewfull=1#post113980
+	// https://forum.pjrc.com/threads/31290-Teensey-3-2-Teensey-Loader-1-24-Issues?p=87273&viewfull=1#post87273
+	//delay(50); // - Uncommented by Asger 21-05-2018
+	usb_init();
+	//delay(400);
